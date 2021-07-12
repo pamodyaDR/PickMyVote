@@ -1,4 +1,6 @@
-<section class="Form my-2 mx-2 py-5">
+<app-navbar></app-navbar>
+
+<section class="Form my-2 mx-2 py-5 mb-3">
     <div class="container">
         <div class="row rowshadow">
             <div class="col-lg-5 lCol">
@@ -16,7 +18,7 @@
                 
             </div>
             <div class="col-lg-7 px-5 py-5">
-              <h2 class="font-weight-bold py-3 text-center">Login</h2>
+              <h2 class="font-weight-bold py-3 text-center">Regiter</h2>
               <form #registrationform="ngForm" (ngSubmit)="registerUser()">
                 <small class="text-danger">{{msg}}</small>
                 <div class="form-row d-flex justify-content-center align-items-center">
