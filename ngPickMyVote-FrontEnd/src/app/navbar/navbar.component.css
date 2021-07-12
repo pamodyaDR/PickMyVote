@@ -8,6 +8,11 @@
 
 .linkstyle {
     text-decoration: none;
+    margin-right: 20px;
+}
+
+.linkstyle:hover{
+    color: rgb(247, 245, 233);
 }
 
 .navbarselections {
