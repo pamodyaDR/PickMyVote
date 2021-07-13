@@ -19,6 +19,9 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ElectionsComponent } from './elections/elections.component';
+import { PricesComponent } from './prices/prices.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 
@@ -29,7 +32,10 @@ import { NavbarComponent } from './navbar/navbar.component';
     RegistrationComponent,
     UserprofileComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    ElectionsComponent,
+    PricesComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
