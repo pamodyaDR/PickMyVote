@@ -19,7 +19,21 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatIconModule} from '@angular/material/icon';
+import {MatListModule} from '@angular/material/list';
+import {MatTableModule} from '@angular/material/table';
+import { UserTableComponent } from './user-table/user-table.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { NewsfeedComponent } from './newsfeed/newsfeed.component';
+import { UsertoolbarComponent } from './usertoolbar/usertoolbar.component';
+import { OrganizationsComponent } from './organizations/organizations.component';
+import { OrganizationComponent } from './organization/organization.component';
+import { OrganizationtableComponent } from './organizationtable/organizationtable.component';
+import { ElectionsComponent } from './elections/elections.component';
+import { ElectiontableComponent } from './electiontable/electiontable.component';
 
 
 @NgModule({
@@ -29,7 +43,16 @@ import { NavbarComponent } from './navbar/navbar.component';
     RegistrationComponent,
     UserprofileComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    SidenavComponent,
+    UserTableComponent,
+    NewsfeedComponent,
+    UsertoolbarComponent,
+    OrganizationsComponent,
+    OrganizationComponent,
+    OrganizationtableComponent,
+    ElectionsComponent,
+    ElectiontableComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +65,12 @@ import { NavbarComponent } from './navbar/navbar.component';
     MatInputModule,
     ReactiveFormsModule,
     MatFormFieldModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatTableModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
